@@ -1,0 +1,9 @@
+/mr_services/resources/apiproxy/EmailAddr.csv
+/mr_services/go_build_mr_service
+/mr_services/logs/
+/mr_services/config_apiproxy/
+/mr_services/config_other/
+/mr_services/config/
+/mr_services/mr_services
+/mr_services/resources/apiproxy/MoralisInfo.csv
+/mr_services/vendor/

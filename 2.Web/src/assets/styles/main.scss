@@ -1,0 +1,53 @@
+@import './base.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Microsoft YaHei !important;
+  font-size: 14px;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.swiper-page {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-page-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.page-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.page-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 20vh;
+}
+
+.flex {
+  display: flex;
+}

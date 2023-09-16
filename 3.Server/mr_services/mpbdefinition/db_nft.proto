@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package mpb;
+
+option go_package = "./mpb";
+
+message DBAptosNFTNodeV2 {
+  message Properties {
+    string prop1 = 1;
+    string prop2 = 2;
+    string quality = 3;
+    string weapon_id = 4;
+    string weapon_type = 5;
+  }
+  string collection_id = 1;
+  string token_data_id = 2;
+  string description = 3;
+  string token_name = 4;
+  uint32 token_id = 5;
+  Properties token_properties = 6;
+  string token_standard = 7;
+  string token_uri = 8;
+  string transaction_timestamp = 9;
+  int64 transaction_timestamp_int = 10;
+}

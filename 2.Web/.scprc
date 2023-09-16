@@ -1,0 +1,18 @@
+{
+  "test": {
+    "build": "/dist",
+    "host": "8.219.242.163",
+    "port": 22,
+    "username": "root",
+    "password": "1234qweR",
+    "path": "/usr/share/yuanlin-web-test/dist"
+  },
+  "prod": {
+    "build": "/dist",
+    "host": "8.219.242.163",
+    "port": 22,
+    "username": "root",
+    "password": "1234qweR",
+    "path": "/usr/share/yuanlin-web/dist"
+  }
+}

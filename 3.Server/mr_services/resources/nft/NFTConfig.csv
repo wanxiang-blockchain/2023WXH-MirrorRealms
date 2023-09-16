@@ -1,0 +1,4 @@
+NFTGraphiQLQueryLimit,NFTGraphiQLPageNum,NFTTransferEvent,NFTBurnEvent
+int,int,string,string
+NFTGraphiQLQueryLimit,NFTGraphiQLPageNum,NFTTransferEvent,NFTBurnEvent
+60,200,0x1::object::TransferEvent,0x4::collection::BurnEvent
